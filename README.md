@@ -1,3 +1,9 @@
+# fork changes
+- [enter] sends message without history
+- added min height in sidebar
+- added dockerfile from pull request
+
+
 <img src="https://raw.githubusercontent.com/patrikzudel/PatrikZeros-ChatGPT-API-UI/main/LogoLight.png?sanitize=true#gh-dark-mode-only" alt="Logo">
 <img src="https://raw.githubusercontent.com/patrikzudel/PatrikZeros-ChatGPT-API-UI/main/LogoDark.png?sanitize=true#gh-light-mode-only" alt="Logo">
 
