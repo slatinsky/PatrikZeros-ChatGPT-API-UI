@@ -3,6 +3,22 @@
 - added min height in sidebar
 - added dockerfile from pull request
 
+## Docker instructions
+```
+git clone git@github.com:slatinsky/PatrikZeros-ChatGPT-API-UI.git
+git pull origin dev
+git checkout dev
+docker build -t gpt .
+docker run -d --rm --name gpt -p 127.0.0.1:5173:5173 gpt
+```
+
+see logs:
+```
+docker logs -f gpt
+```
+
+# Original readme below
+
 
 <img src="https://raw.githubusercontent.com/patrikzudel/PatrikZeros-ChatGPT-API-UI/main/LogoLight.png?sanitize=true#gh-dark-mode-only" alt="Logo">
 <img src="https://raw.githubusercontent.com/patrikzudel/PatrikZeros-ChatGPT-API-UI/main/LogoDark.png?sanitize=true#gh-light-mode-only" alt="Logo">
