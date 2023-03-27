@@ -588,7 +588,7 @@
                 return;
               } else {
                 event.preventDefault();
-                sendMessage(MSG_TYPES.WITH_HISTORY);
+                sendMessage(MSG_TYPES.WITHOUT_HISTORY);
               }
             }
           }}
