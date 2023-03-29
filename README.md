@@ -1,5 +1,7 @@
 # fork changes
-- [enter] sends message without history
+- added forget memory up to this point button
+- added visual memory marker
+- summarize doesn't clear chat history
 - added min height in sidebar
 - added dockerfile from pull request
 
